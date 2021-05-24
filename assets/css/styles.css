@@ -404,6 +404,10 @@ p.b {
   margin-left: 40%;
 }
 
+.imggal {
+  display: block;
+}
+
 .imggal img{
     width: 320px;
     margin-left: 1rem;
