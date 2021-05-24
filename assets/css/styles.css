@@ -3,7 +3,7 @@
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
-  --font-semi: 600;
+  --font-semi: 400;
 }
 
 /*===== Colores =====*/
@@ -14,7 +14,7 @@
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Lato', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -206,8 +206,7 @@ img{
 }
 .home__social-icon{
   width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
 }
 .home__social-icon:hover{
@@ -231,7 +230,7 @@ img{
   margin-right: 1rem;
 }
 .button:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  box-shadow: 0 6px 24px rgba(0,0,0,.15);
 }
 
 /* ===== ABOUT =====*/
@@ -371,9 +370,21 @@ img{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+
+.education h1,h2,h3{
+  color: #2F3061;
+}
+
+p.b {
+  font-style: italic;
+}
+
+.education ol {
+  list-style: circle;
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -419,7 +430,7 @@ img{
   }
   .home__social{
     padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
     flex-direction: row;
     align-self: flex-end;
   }
@@ -428,9 +439,9 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 100px;
-    bottom: 0%;
-    left: 70%;
+    width: 320px;
+    top: 30%;
+    left: 60%;
   }
 
   .about__container, .skills__container{
@@ -463,4 +474,3 @@ img{
     right: 10%;
     bottom: 30%
   }
-}
