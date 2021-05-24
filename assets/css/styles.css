@@ -215,9 +215,9 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 295px;
+  right: 5%;
+  bottom: 70%;
+  width: 120px;
 }
 
 /*BUTTONS*/
@@ -428,8 +428,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 320px;
-    bottom: 40%;
+    width: 100px;
+    bottom: 0%;
     left: 70%;
   }
 
