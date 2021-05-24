@@ -206,7 +206,8 @@ img{
 }
 .home__social-icon{
   width: max-content;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: .5rem;
   color: var(--second-color);
 }
 .home__social-icon:hover{
@@ -224,7 +225,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: 1rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
   margin-right: 1rem;
@@ -232,6 +233,15 @@ img{
 .button:hover{
   box-shadow: 0 6px 24px rgba(0,0,0,.15);
 }
+
+.button2{
+  display: inline-flex;
+  color: #2F3061;
+  outline-style: solid;
+  padding: .5rem 5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  margin-right: 1rem;
 
 /* ===== ABOUT =====*/
 .about__container{
@@ -387,6 +397,19 @@ p.b {
   list-style: circle;
 }
 
+.navwork {
+  margin-top: 5rem;
+  margin-left: 40%;
+}
+
+.imggal img{
+    width: 320px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -463,6 +486,24 @@ p.b {
   .contact__container{
     justify-items: center;
   }
+}
+
+.imggal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.imggal img{
+    width: 240px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.imgtext {
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px){
