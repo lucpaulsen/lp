@@ -243,6 +243,8 @@ img{
   border-radius: 2.5rem;
   margin-right: 1rem;
 
+}
+
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
@@ -312,7 +314,7 @@ img{
 .skills__usb{
   width: 85%;
 }
-}
+
 .skills__img{
   border-radius: .5rem;
 }
