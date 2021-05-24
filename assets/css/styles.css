@@ -236,6 +236,8 @@ img{
 
 .button2{
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #2F3061;
   outline-style: solid;
   padding: .5rem 5rem;
