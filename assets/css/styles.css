@@ -235,7 +235,7 @@ img{
 }
 
 .button2{
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   color: #2F3061;
@@ -243,7 +243,6 @@ img{
   padding: .5rem 5rem;
   font-weight: var(--font-semi);
   border-radius: 2.5rem;
-  margin-right: 1rem;
 
 }
 
@@ -308,13 +307,13 @@ img{
   z-index: var(--z-back);
 }
 .skills__research{
-  width: 95%;
+  width: 85%;
 }
 .skills__wireframe{
-  width: 75%;
+  width: 70%;
 }
 .skills__usb{
-  width: 85%;
+  width: 75%;
 }
 
 .skills__img{
